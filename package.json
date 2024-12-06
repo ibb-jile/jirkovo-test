@@ -1,1 +1,16 @@
-ewoJIm5hbWUiOiAiamlya292by10ZXN0IiwKCSJ2ZXJzaW9uIjogIjEuMC4wIiwKCSJkZXNjcmlwdGlvbiI6ICJUZXN0b3ZhY8OtIFR5cGVTY3JpcHQgcHJvamVrdCIsCgkibWFpbiI6ICJkaXN0L2luZGV4LmpzIiwKCSJzY3JpcHRzIjogewoJCSJzdGFydCI6ICJub2RlIGRpc3QvaW5kZXguanMiLAoJCSJidWlsZCI6ICJ0c2MiLAoJCSJkZXYiOiAidHMtbm9kZSBzcmMvaW5kZXgudHMiCgl9LAoJImtleXdvcmRzIjogWyJ0eXBlc2NyaXB0IiwgInRlc3QiXSwKCSJhdXRob3IiOiAiIiwKCSJsaWNlbnNlIjogIklTQyIsCgkiZGV2RGVwZW5kZW5jaWVzIjogewoJCSJ0eXBlc2NyaXB0IjogIl41LjMuMiIsCgkJInRzLW5vZGUiOiAiXjEwLjkuMiIsCgkJIkB0eXBlcy9ub2RlIjogIl4yMC4xMC40Igp9Cn0=
+{
+  "name": "jirakovby-test",
+  "version": "1.0.0",
+  "description": "Testování typových skriptů pro Jirakovby",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc"
+  },
+  "keywords": ["typescript", "test"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.10.4"
+  }
+}
