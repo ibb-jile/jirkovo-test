@@ -1,0 +1,19 @@
+{
+  "name": "jirkovo-test",
+  "version": "1.0.0",
+  "description": "Testovací TypeScript projekt",
+  "main": "dist/index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc",
+    "dev": "ts-node src/index.ts"
+  },
+  "keywords": ["typescript", "test"],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.3.2",
+    "ts-node": "^10.9.2",
+    "@types/node": "^20.10.4"
+  }
+}
