@@ -5,12 +5,34 @@
   "main": "dist/index.js",
   "scripts": {
     "start": "node dist/index.js",
-    "build": "tsc"
+    "dev": "nodemon src/index.ts",
+    "build": "tsc",
+    "watch": "tsc -w"
   },
-  "keywords": ["typescript", "test"],
+  "keywords": [
+    "typescript",
+    "test"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "@types/node": "^20.10.4"
-  }
+    "@types/node": "^20.17.9",
+    "@typescript-eslint/eslint-plugin": "^8.17.0",
+    "@typescript-eslint/parser": "^8.17.0",
+    "eslint": "^9.16.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.4.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ibb-jile/jirkovo-test.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ibb-jile/jirkovo-test/issues"
+  },
+  "homepage": "https://github.com/ibb-jile/jirkovo-test#readme"
 }
